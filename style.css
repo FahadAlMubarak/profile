@@ -1,0 +1,102 @@
+
+body {
+  background: url("images/background.mp4") no-repeat;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 0 auto;
+  width:600px;
+  text-align: center;
+  cursor: pointer;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #eeeeee;
+}
+#background-video {
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.box{
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  margin: 50px;
+  border-radius: 20px;
+  padding: 5px;
+  background-color: #282C35;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+p{
+  text-align: left;
+
+}
+h1,h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 30px;
+  background:linear-gradient(#0b6623, #1f482e);
+  background-clip: padding-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+i {
+  color: white;
+}
+a {
+  padding: 2px;
+}
+.icon-padding{
+  padding-bottom: 10px;
+}
+
+#profile-picture{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 2px solid silver;
+    object-fit: cover;
+}
+#text-align{
+  text-align: right;
+}
+.text-gradient{
+  background:linear-gradient(#8aa8d4, #7cbf76);
+  background-clip: padding-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text-size{
+  font-size: 20px;
+}
+
+.emoji {
+  -webkit-text-fill-color: black;
+}
+
+
+@media screen and (max-width: 768px) {
+  /* Styles for smaller screens (e.g., smartphones) */
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Styles for medium-sized screens (e.g., tablets) */
+}
+
+@media screen and (min-width: 1024px) {
+  /* Styles for larger screens (e.g., desktops) */
+}
